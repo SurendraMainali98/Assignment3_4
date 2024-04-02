@@ -1,0 +1,63 @@
+/* This page is Created by Surendra Mainali ,C0918640 , Date: 04/02/2024 */
+
+/* Styles for the container */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styles for the header section */
+.head {
+    background-color: #20124D;
+    padding: 10px 0;
+    border-radius: 5px 5px 0 0;
+}
+
+/* Styles for the h1 within the header */
+.head h1 {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+}
+
+/* Styles for the paragraph within the header */
+.head p {
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+}
+
+/* Styles for the individual sections within the container */
+.container div {
+    margin-bottom: 15px; 
+}
+
+/* Styles for labels within the container */
+.container label {
+    display: inline-block;
+    width: 100px;
+}
+
+/* Styles for input fields and select dropdowns within the container */
+.container input,
+.container select {
+    width: calc(100% - 110px); /* Adjusted width to make input fields bigger */
+    padding: 8px; 
+}
+
+/* Styles for the convert button within the container */
+.container button {
+    width: 30%; 
+    padding: 12px; 
+    margin-left: 5px; 
+    background-color: #20124D;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
